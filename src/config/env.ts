@@ -91,7 +91,7 @@ export const env = {
   mailgun: {
     uri: process.env.MAILGUN_URI ?? '',
     username: process.env.MAILGUN_USERNAME ?? 'api',
-    apiKey: process.env.MAILGUN_API_KEY ?? '',
+    apiKey: "key-" + process.env.MAILGUN_API_KEY,
   },
 
   hunter: {
